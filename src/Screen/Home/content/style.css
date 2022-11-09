@@ -1,0 +1,160 @@
+.container-bg-content{
+    background-image: url(../Img/nathan-dumlao-71u2fOofI-U-unsplash\ 2.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    min-height: 645px;
+    position: relative;
+
+}
+/* Get started */
+.container-get-started h1{
+    color: white;
+    font-size: 49px;
+
+}
+.container-get-started p{
+    color: white;
+}
+.container-search{
+    display: flex;
+}
+.container-get-started{
+    margin-left: 10%;
+    max-width: 570px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.get-started{
+    margin-top: 10px;
+}
+/* home page */
+.container-home-page{
+    width: 1140px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.container-home-page .circle{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    background: #FFBA33;
+    border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+
+}
+.vertikal{
+    border: 2px solid #EEEFF2;
+    height: 125.57px;
+    width: 0px;
+    margin: 130px;
+}
+.conten-home-page{
+    display: flex;
+    flex-direction: row;
+}
+.text-home-page{
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    font-family: 'Rubik';
+    margin-left: 20px;
+}
+/* price */
+.container-price{
+    background-color: #ffffff;
+}
+.container-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.item{
+    background-color: white;
+    width: 330px;
+    height: 760px;
+    margin: 50px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+.Img-netflix{
+    background-color: #c6c6c6;
+    margin: 10px;
+    height: 100px;
+}
+.container-patner{
+    background-color: blue;
+}
+.container-testimoniConsumer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    
+}
+.testimoni{
+    width: 400px;
+    height: 230px;
+    background: #FFFFFF;
+    border: 2px solid #6A4029;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.container-promo{
+    width: 1140px;
+    height: 233px;
+    /* background: #de0000; */
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: -117px; */
+    position: relative;
+    align-items: center;
+}
+.promo{
+    width: 1140px;
+    height: 233px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -117px;
+    position: absolute;
+    align-items: center;
+}
+.container-text-teamwork{
+    width: 432px;
+    margin-left: 139px;
+    
+}
+.teamwork{
+    width: 573px;
+    height: 457px;
+}
+.contanier-teamwork{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+

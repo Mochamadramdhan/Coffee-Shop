@@ -12,28 +12,3 @@
     width: 30px;
     margin: 10px;
 }
-.headbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 129px;
-}
-h1, p{
-    font-family: 'Rubik';
-    
-}
-.login-navbar{
-    margin-left: 10%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 19px;
-    color: black;
-}
-.container-button {
-    margin-left: 15%;
-    display: flex;
-    flex-direction: row;
-}
-.logo-headbar{
-    margin-left: 10%;
-}

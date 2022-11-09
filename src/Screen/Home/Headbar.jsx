@@ -1,7 +1,6 @@
 import Button from '@mui/material/Button';
 import React from 'react';
-import { styled, alpha } from '@mui/material/styles';
-import Avatar from '@mui/material/Avatar';
+import { styled } from '@mui/material/styles';
 import MenuItem from '@mui/material/MenuItem';
 import Logo from '../logo'
 const BootstrapButton = styled(Button)({
@@ -42,7 +41,7 @@ const BootstrapButton = styled(Button)({
   },
 });
 
-const navItems = ['Home', 'About', 'Contact'];
+
 const Headbar  = () => {
   return(
   <>
@@ -51,13 +50,13 @@ const Headbar  = () => {
       <div className="logo-headbar">
         <Logo className='coba'></Logo>
       </div>
-      <div className="container-button">
+      <div className="container-button-headbar">
         <MenuItem>Home</MenuItem>
         <MenuItem>Product</MenuItem>
         <MenuItem>Your Cart</MenuItem>
         <MenuItem>History</MenuItem>
       </div>
-      <p className='login-navbar'>Login</p>
+      <p className='login-headbar'>Login</p>
       <BootstrapButton variant="contained" disableRipple>
               Sign Up
           </BootstrapButton>

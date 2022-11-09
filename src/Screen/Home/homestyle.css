@@ -1,0 +1,32 @@
+
+h1, p{
+    font-family: 'Rubik';
+    
+}
+/* headbar */
+.headbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 129px;
+}
+.login-headbar{
+    margin-left: 10%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    color: black;
+}
+.container-button-headbar {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.logo-headbar{
+    margin-left: 10%;
+}
+/* navbar */
+.navbar{
+    background-color:  #f8f8f8;
+   margin-top: 233px;
+}

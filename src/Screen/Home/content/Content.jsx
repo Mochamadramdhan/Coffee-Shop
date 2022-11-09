@@ -1,5 +1,5 @@
 import React from 'react'
-import Teamwork from './Img/35744 1.png'
+import Teamwork from '../Img/35744 1.png'
 import People from '@mui/icons-material/Person';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
@@ -8,6 +8,8 @@ import { styled, alpha } from '@mui/material/styles';
 import Button, {  } from '@mui/material/Button';
 import InputBase from '@mui/material/InputBase';
 import './style.css'
+import Price from './Price';
+import Conten2 from './Conten2';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -18,10 +20,9 @@ const Search = styled('div')(({ theme }) => ({
     '&:hover': {
       backgroundColor: alpha(theme.palette.common.white, 0.8),
     },
-    marginTop: 15,
-    right:0,
-    left:0,
-    width: 63,
+    marginTop: 30,
+    left:'65%',
+    minWidth:314,
     [theme.breakpoints.up('sm')]: {
       marginLeft: theme.spacing(1),
       width: 'auto',
@@ -96,41 +97,75 @@ const Search = styled('div')(({ theme }) => ({
 export default function Content() {
   return (
 <>
-<div className='container-bg-home'>
+<div className='container-bg-content'>
     <div className="container-search">
               <Search className='search'>
-                <SearchIconWrapper>
-                  <SearchIcon />
-                </SearchIconWrapper>
-                <StyledInputBase
-                  placeholder="Search…"
-                  inputProps={{ 'aria-label': 'search' }}
-                />
+                  <SearchIconWrapper>
+                    <SearchIcon />
+                  </SearchIconWrapper>
+                  <StyledInputBase
+                    placeholder="Search…"
+                    inputProps={{ 'aria-label': 'search' }}/>
               </Search>
     </div>
     <div className="container-get-started">
               <h1>Start Your Day with Coffee and Good Meals</h1>
               <p>We provide high quality beans, good taste, and healthy meals made by love just for you. Start your day with us for a bigger smile!</p>
               <BootstrapButton className='get-started' variant="contained" disableRipple>
-              Get Started
-          </BootstrapButton>
+                Get Started
+              </BootstrapButton>
     </div>
-        </div>
+</div>
         
-        <div className="container-ractangle">
+<div className="container-home-page">
+      <div className='conten-home-page'>
         <div className="circle">
           <People></People>
         </div>
+        <div className="text-home-page">
+        <h2>90+</h2>
+        <p>Staff</p>
+        </div>
+        
+      </div>
+      <div className="vertikal"></div>
+      <div className='conten-home-page'>
+        
         <div className="circle">
           <LocationOnIcon></LocationOnIcon>
         </div>
+        <div className="text-home-page">
+          <h2>30+</h2>
+          <p>Stores</p>
+        </div>
+      </div>
+      <div className="vertikal"></div>
+      <div className='conten-home-page'>
+        
         <div className="circle">
           <FavoriteBorderIcon></FavoriteBorderIcon>
-          </div>
-          </div>
-          <div className="contanier-teamwork">
-          <img src={Teamwork} alt="Img.teamwork" className='Img-team-work'/>
         </div>
+        <div className="text-home-page">
+          <h2>800+</h2>
+          <p>Customers</p>
+        </div>
+        
+      </div>
+</div>
+<div className="contanier-teamwork">
+  <div className="teamwork">
+          <img src={Teamwork} alt="Img.teamwork" className='Img-team-work'/>
+  </div>
+  <div className="container-text-teamwork">
+            <h1 className='h1-teamwork'>We Provide Good Coffee and Healthy Meals</h1>
+            <p>
+            You can explore the menu that we provide with fun and have their own taste and make your day better.
+            </p>
+  </div>
+</div>
+<Price></Price>
+<Conten2></Conten2>
+        
 </>
   )
 }

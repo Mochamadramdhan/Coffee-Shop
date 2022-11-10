@@ -2,6 +2,8 @@ import React from 'react'
 import Headbar from './Headbar'
 import Navbar from './Navbar';
 import Content from './content/Content';
+import Promo from './content/Promo';
+import './content/style.css'
 
 export default function Home() {
   return (
@@ -9,7 +11,10 @@ export default function Home() {
     <div className='container-home'>
       <Headbar/>
       <Content/>
-      <Navbar></Navbar>
+      <Promo></Promo>
+      <Navbar>
+        <div className='promo'></div>
+      </Navbar>
   </div>
 </>
   )

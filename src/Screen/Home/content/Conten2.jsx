@@ -12,7 +12,7 @@ export default function Conten2() {
           <img src={Amazon} alt="Img.netflix" className='Img-netflix'/>
     </div>
     <div className="container-consumer">
-        <h2>Loved by Thousands of Happy Customer</h2>
+        <h2 >Loved by Thousands of Happy Customer</h2>
         <p>These are the stories of our customers who have visited us with great pleasure.</p>
         <div className="container-testimoniConsumer">
           <div className="testimoni">

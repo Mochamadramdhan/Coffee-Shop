@@ -124,7 +124,25 @@
     height: 100px;
 }
 .container-patner{
-    background-color: blue;
+    text-align: center;
+}
+.container-consumer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+.container-consumer-text{
+    text-align: center;
+    max-width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+.container-consumer-text h1{
+    max-width: 450px;
+ 
 }
 .container-testimoniConsumer{
     display: flex;
@@ -133,43 +151,67 @@
     
 }
 .testimoni{
-    width: 400px;
-    height: 230px;
+    width: 340px;
+    height: 170px;
     background: #FFFFFF;
     border: 2px solid #6A4029;
     border-radius: 10px;
-    margin-left: 80px;
+    margin-left: 40px;
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+    font-size: 14px;
+    
+}
+.image-testimoni{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    
+    
+}
+.container-people{
+    display: flex;
+    line-height: 1px;
+    align-items: center;
+    font-size: 14px;
+}
+.testimoni-review{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    margin: 30px;
+    
 }
 .container-promo{
     width: 1140px;
     height: 233px;
-    /* background: #de0000; */
-    /* background-color: aqua; */
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 117px; */
     position: relative;
     align-items: center;
+
 }
 .promo{
-    width: 1140px;
-    height: 233px;
-    background: #ff0000;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -117px;
-    position: absolute;
+    display: flex;
     align-items: center;
+    right: 70px;
+    
+}
+.promo-text{
+    margin-left: 70px;
 }
 .container-text-teamwork{
+  
+    margin-left: 140px;
     width: 432px;
-    margin-left: 139px;
     
 }
 .teamwork{
-    width: 573px;
+   
     height: 457px;
 }
 .contanier-teamwork{
@@ -185,6 +227,7 @@
     flex-direction: row;
     justify-content: center;
     background-color: #FFFFFF;
+    margin-top: 155px;
 }
 
 .list{
@@ -193,4 +236,21 @@
    position: relative;
     
     border: 2px solid #DDDDDD;
+}
+.container-outstore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.outstore{
+    text-align: center;
+    max-width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-outstore h1{
+    max-width: 385px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Map from '../Img/Vector.png'
+
 import late from './ImgConten/image 22.png'
 import pingkypromise from './ImgConten/image 27.png'
 import chiken from './ImgConten/image 30.png'
@@ -160,11 +160,7 @@ export default function Price() {
             </div>
             </div>
         </div>
-        <h2>Visit Our Store in the Spot on the Map Below</h2>
-        <p>See our store in every city on the spot and spen your good day there. See you soon!</p>
-        <div className="map">
-        <img src={Map} alt="Img.vektor" className='img-map'/>
-        </div>
+        
     </div>
     </>
   )

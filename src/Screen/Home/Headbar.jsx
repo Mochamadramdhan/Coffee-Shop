@@ -56,7 +56,10 @@ const Headbar  = () => {
         <MenuItem>Your Cart</MenuItem>
         <MenuItem>History</MenuItem>
       </div>
-      <p className='login-headbar'>Login</p>
+      <div className="login-headbar">
+      <MenuItem >Login</MenuItem>
+      </div>
+      
       <BootstrapButton variant="contained" disableRipple>
               Sign Up
           </BootstrapButton>

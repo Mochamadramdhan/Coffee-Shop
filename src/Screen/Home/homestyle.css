@@ -28,13 +28,29 @@
 /* navbar */
 .navbar{
     background-color:  #f8f8f8;
-   margin-top: 233px;
+}
+.container-navbar{
+    display: flex;
+    margin-top: 2px;
 }
 .p-navbar{
     width: 340px;
+    line-height: 2;
+}
+.container-poduct{
+    margin-top: 20px;
+    line-height: 1;
+    margin-right: 126px;
 }
 .container-logo-sosmed{
     margin-left: 10%;
+    margin-right: 475px;
+    
+}
+.container-logo-sosmed .credit{
+    color: #AFB5C0;
+    margin-top: 30px;
+
 }
 .container-sosmned{
     display: flex;
@@ -48,6 +64,6 @@
     border-radius: 70px;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin-left: 20px;
     
 }

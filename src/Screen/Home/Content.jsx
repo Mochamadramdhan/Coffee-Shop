@@ -1,5 +1,5 @@
 import React from 'react'
-import Teamwork from '../Img/35744 1.png'
+
 import People from '@mui/icons-material/Person';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
@@ -7,9 +7,12 @@ import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import Button, {  } from '@mui/material/Button';
 import InputBase from '@mui/material/InputBase';
-import './style.css'
-import Price from './Price';
-import Conten2 from './Conten2';
+import './content/style.css'
+import Price from './content/Price';
+import Partner from './content/Partner';
+import Teamwowrk from './content/Teamwork';
+import Outstore from './content/Outstore';
+import Testimoni from './content/Testimoni';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -152,19 +155,11 @@ export default function Content() {
         
       </div>
 </div>
-<div className="contanier-teamwork">
-  <div className="teamwork">
-          <img src={Teamwork} alt="Img.teamwork" className='Img-team-work'/>
-  </div>
-  <div className="container-text-teamwork">
-            <h1 className='h1-teamwork'>We Provide Good Coffee and Healthy Meals</h1>
-            <p>
-            You can explore the menu that we provide with fun and have their own taste and make your day better.
-            </p>
-  </div>
-</div>
+<Teamwowrk></Teamwowrk>
 <Price></Price>
-<Conten2></Conten2>
+<Outstore></Outstore>
+<Partner></Partner>
+<Testimoni></Testimoni>
         
 </>
   )

@@ -1,7 +1,15 @@
 
 .container-home{
-    font-family: 'Rubik';
-    
+    font-family: 'Rubik'; 
+}
+.container-bg-content{
+    background-image: url(./Img/bg-coffe.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    min-height: 645px;
+    position: relative;
+
 }
 /* headbar */
 .headbar{

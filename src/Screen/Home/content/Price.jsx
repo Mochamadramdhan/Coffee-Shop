@@ -41,7 +41,8 @@ export default function Price() {
             <div className="item">
               <img src={late} alt="Img.late" className='image-price'/>
               <h3>Hazelnut Latte</h3>
-              <List className='list' sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+              <List className='list' sx={{ width: '90%', maxWidth: 360, bgcolor: 'background.paper', 
+            lineHeight:0.5}}>
                 <ListItem>
                   <ListItemAvatar>
                     <CheckIcon sx={{ color: green[500] }}/>
@@ -75,7 +76,7 @@ export default function Price() {
             <div className="item">
               <img src={pingkypromise} alt="Img.pingkypromise" className='image-price'/>
               <h3>Pinky Promise</h3>
-              <List className='list' sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+              <List className='list' sx={{ width: '90%', maxWidth: 360, bgcolor: 'background.paper' }}>
                 <ListItem>
                   <ListItemAvatar>
                     <CheckIcon sx={{ color: green[500] }}/>
@@ -115,7 +116,7 @@ export default function Price() {
             <div className="item">
             <img src={chiken} alt="Img.chiken" className='image-price'/>
               <h3>Chicken Wings</h3>
-              <List className='list' sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+              <List className='list' sx={{ width: '90%', maxWidth: 360, bgcolor: 'background.paper', lineHeight:0.1}}>
                 <ListItem>
                   <ListItemAvatar>
                     <CheckIcon sx={{ color: green[500] }}/>

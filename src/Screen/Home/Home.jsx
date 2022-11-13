@@ -11,10 +11,8 @@ export default function Home() {
     <div className='container-home'>
       <Headbar/>
       <Content/>
-      <Promo></Promo>
-      <Navbar>
-        {/* <div className='promo'></div> */}
-      </Navbar>
+      <Promo/>
+      <Navbar></Navbar>
   </div>
 </>
   )

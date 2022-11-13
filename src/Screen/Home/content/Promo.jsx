@@ -13,7 +13,7 @@ const BootstrapButton = styled(Button)({
   borderRadius: 10,
   padding: '10px 50px',
   color : 'black',
-  width:250,
+  maxWidth:250,
   height:60,
   right:30,
   backgroundColor: '#FFBA33',
@@ -37,7 +37,7 @@ export default function Promo() {
   return (
 <div className="container-promo">
   
-    <Box sx={{ width: 1140 , height:233 , backgroundColor:'#EAEAEA',
+    <Box sx={{ maxWidth: 1140 , height:233 , backgroundColor:'#EAEAEA',
         display: 'flex',
         flexWrap: 'wrap',
         flexDirection:'column',

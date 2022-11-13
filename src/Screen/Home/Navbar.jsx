@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../logo'
+import Lego from '../logo'
 import './homestyle.css'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -21,7 +21,7 @@ const Navbar  = () => {
       </div> */}
   <div className="container-navbar">
   <div className="container-logo-sosmed">
-        <Logo/>
+        <Lego/>
         <p className='p-navbar'>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
         <div className="container-sosmned">
           <div className='content-sosmed'>

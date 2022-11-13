@@ -155,11 +155,11 @@ export default function Content() {
         
       </div>
 </div>
-<Teamwowrk></Teamwowrk>
-<Price></Price>
-<Outstore></Outstore>
-<Partner></Partner>
-<Testimoni></Testimoni>
+<Teamwowrk/>
+<Price/>
+<Outstore/>
+<Partner/>
+<Testimoni/>
         
 </>
   )

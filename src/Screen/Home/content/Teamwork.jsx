@@ -5,15 +5,15 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Teamwork from '../Img/35744 1.png'
+import Teamwork from '../Img/img-teamwork.png'
 
 export default function Teamwowrk() {
   return (
     <>
-    <div className="contanier-teamwork">
-    <div className="teamwork">
-            <img src={Teamwork} alt="Img.teamwork" className='Img-team-work'/>
-    </div>
+<div className="contanier-teamwork">
+      <div className="teamwork">
+              <img src={Teamwork} alt="Img.teamwork" className='Img-team-work'/>
+      </div>
     <div className="container-text-teamwork">
               <h1 className='h1-teamwork'>We Provide Good Coffee and Healthy Meals</h1>
               <p>

@@ -39,7 +39,10 @@ const Navbar  = () => {
   <div className="container-poduct">
   <Box
       sx={{
-        display: 'flex',
+        display: {
+          xs: 'none',
+          md: 'flex',
+          lg: 'flex'},
         flexWrap: 'wrap',
         flexDirection:'column',
         justifyContent: 'center',  
@@ -69,7 +72,10 @@ const Navbar  = () => {
   <div className="container-poduct">
   <Box
       sx={{
-        display: 'flex',
+        display: {
+          xs: 'none',
+          md: 'none',
+          lg: 'flex'},
         flexWrap: 'wrap',
        
         flexDirection:'column',

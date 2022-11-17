@@ -7,9 +7,7 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Logo  from '../screen/Logo';
 import { styled } from '@mui/material/styles';
@@ -153,7 +151,7 @@ function ResponsiveAppBar() {
               </Button>
             ))}
           </Box>
-          <Box sx={{flexGrow:1, display:{xs: 'none',md : 'flex'}}}>
+          <Box sx={{flexGrow:1, display:{xs: 'flex',md : 'flex'}}}>
                   
                 <div className="login-headbar">
                     <MenuItem >Login</MenuItem>
@@ -163,35 +161,8 @@ function ResponsiveAppBar() {
                   </BootstrapButton>
         </Box>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="" src="" />
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '100px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
+          
+          
         </Toolbar>
       </Container>
     </AppBar>

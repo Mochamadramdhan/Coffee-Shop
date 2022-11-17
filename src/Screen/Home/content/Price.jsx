@@ -1,5 +1,4 @@
 import React from 'react'
-
 import late from './ImgConten/image 22.png'
 import pingkypromise from './ImgConten/image 27.png'
 import chiken from './ImgConten/image 30.png'
@@ -11,6 +10,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
+import Grid from '@mui/material/Grid';
 
 
 const Buttonselec = styled(Button)({
@@ -37,8 +37,13 @@ export default function Price() {
         <h2>Here is People’s Favorite</h2>
         <p>Let’s choose and have a bit taste of poeple’s favorite. It might be yours too!</p>
     </div>
-        <div className="container-item">
-            <div className="item">
+    <div className="container-item" >
+    <Grid container spacing={1} direction="row"
+  alignItems="center"
+  justify="center">
+        <Grid item xs md={5} lg={4} >
+        <div className="container-item" >
+          <div className="item">
               <img src={late} alt="Img.late" className='image-price'/>
               <h3>Hazelnut Latte</h3>
               <List className='list' sx={{ width: '90%', maxWidth: 360, bgcolor: 'background.paper', 
@@ -73,7 +78,11 @@ export default function Price() {
               <Buttonselec variant="outlined">Select</Buttonselec>
             </div>
             </div>
-            <div className="item">
+            </div>
+        </Grid>
+        <Grid item xs={12} md={7} lg={4}>
+        <div className="container-item" >
+          <div className="item">
               <img src={pingkypromise} alt="Img.pingkypromise" className='image-price'/>
               <h3>Pinky Promise</h3>
               <List className='list' sx={{ width: '90%', maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -113,7 +122,11 @@ export default function Price() {
               <Buttonselec variant="outlined" >Select</Buttonselec>
             </div>
             </div>
-            <div className="item">
+            </div>
+        </Grid>
+        <Grid item xs>
+        <div className="container-item" >
+        <div className="item">
             <img src={chiken} alt="Img.chiken" className='image-price'/>
               <h3>Chicken Wings</h3>
               <List className='list' sx={{ width: '90%', maxWidth: 360, bgcolor: 'background.paper', lineHeight:0.1}}>
@@ -160,6 +173,13 @@ export default function Price() {
               <Buttonselec variant="outlined" >Select</Buttonselec>
             </div>
             </div>
+            </div>
+        </Grid>
+      </Grid>
+        
+            
+            
+          
         </div>
         
     </div>

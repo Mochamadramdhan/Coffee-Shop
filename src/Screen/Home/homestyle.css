@@ -19,7 +19,7 @@
     height: 129px;
 }
 .login-headbar{
-    margin-left: 10%;
+    margin-left: 8%;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -37,6 +37,7 @@
 /* navbar */
 .navbar{
     background-color:  #f8f8f8;
+    background-size: cover;
 }
 .container-navbar{
     display: flex;
@@ -53,7 +54,7 @@
 }
 .container-logo-sosmed{
     margin-left: 10%;
-    margin-right: 475px;
+    margin-right: 40%;
     
 }
 .container-logo-sosmed .credit{

@@ -3,8 +3,8 @@ import {
   BrowserRouter as Router,
    Routes,
   Route} from "react-router-dom";
-import Home from "./Screen/Home/Home";
-// import Home2 from "./Screen/Home2/Home2";
+import Home from "./screen/Home/Home";
+
 
 
 export default function App() {

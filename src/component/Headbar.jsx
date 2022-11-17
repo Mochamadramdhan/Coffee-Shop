@@ -75,7 +75,7 @@ function ResponsiveAppBar() {
   });
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{ background: '#FFFFFF' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         
@@ -87,7 +87,7 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              
             >
               <MenuIcon />
             </IconButton>

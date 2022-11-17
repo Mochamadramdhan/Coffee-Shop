@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
    Routes,
   Route} from "react-router-dom";
-import Home from "./screen/Home/Home";
+import Home from "./screen/home/Home";
 
 
 

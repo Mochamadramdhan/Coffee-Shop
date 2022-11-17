@@ -1,5 +1,5 @@
 import React from 'react';
-import Cofee from './Home/Img/coffee 1.png'
+import Cofee from './home/Img/coffee 1.png'
 import './style.css'
 
 const Logo = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import Lego from '../Screen/Logo'
-import '../Screen/Home/homestyle.css'
+import Lego from '../screen/Logo'
+import '../screen/Home/homestyle.css'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';

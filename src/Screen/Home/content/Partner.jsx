@@ -6,7 +6,7 @@ import  Amazon from './ImgConten/amazon.png'
 import Reddit from './ImgConten/reddit.png'
 
 
-export default function Conten2() {
+export default function Partner() {
   return (
 <>
     <div className="container-patner">

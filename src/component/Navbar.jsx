@@ -1,6 +1,6 @@
 import React from 'react';
-import Lego from '../logo'
-import './homestyle.css'
+import Lego from '../Screen/Logo'
+import '../Screen/Home/homestyle.css'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -13,12 +13,6 @@ const Navbar  = () => {
   return(
 
 <div className='navbar'>
-      {/* <div className="container-promo">
-      <div className="promo">
-      
-      </div>
-
-      </div> */}
   <div className="container-navbar">
   <div className="container-logo-sosmed">
         <Lego/>
@@ -27,7 +21,6 @@ const Navbar  = () => {
           <div className='content-sosmed'>
             <div className="circle">
             <FacebookIcon></FacebookIcon>
-              
             </div>
           </div>
           <div className='content-sosmed'>

@@ -13,12 +13,15 @@ export default function Teamwowrk() {
     <>
 <div className="contanier-teamwork">
 <Grid container spacing={2}>
-      <Grid item  xs={12} md={8} lg={6}>
+      <Grid item  xs={12} md={12} lg={6}>
+      <div className="container-item" >
         <div className="teamwork">
               <img src={Teamwork} alt="Img.teamwork" className='Img-team-work'/>
         </div>
+        </div>
       </Grid>
-        <Grid item  xs={12} md={7} lg={6}>
+        <Grid item  xs={12} md={12} lg={6}>
+        <div className="container-item" >
           <div className="container-text-teamwork">
               <h1 className='h1-teamwork'>We Provide Good Coffee and Healthy Meals</h1>
               <p>
@@ -51,6 +54,7 @@ export default function Teamwowrk() {
                 </ListItem>
             </List>   
           </div>
+        </div>
       </Grid>
 </Grid>
 </div>

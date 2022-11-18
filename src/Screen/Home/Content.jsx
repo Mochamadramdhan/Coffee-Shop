@@ -26,6 +26,7 @@ const Search = styled('div')(({ theme }) => ({
     left : '65%',
     marginRight:10,
     height:50,
+   
     [theme.breakpoints.up('sm')]: {
       marginLeft: theme.spacing(1),
       width: 'auto',
@@ -160,6 +161,7 @@ export default function Content() {
 <Outstore/>
 <Partner/>
 <Testimoni/>
+
         
 </>
   )

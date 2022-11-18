@@ -11,12 +11,11 @@
 .container-search{
     display: flex;
     margin-right: 30px;
-    min-width: 314px;
 }
 @media only screen and ( min-width: 0px){
     .search{
-        min-width: 0px;
-        left : '55%';
+        width: 180px;
+        margin-left : '65%';
     }
     .vertikal{
         border: 2px solid #EEEFF2;
@@ -24,11 +23,19 @@
         width: 0px;
         margin: 4%;
     }
+    .imgMap{
+        width: 500px;
+        height: 245px;
+    }
+    .Img-team-work{
+        width: 458,4px;
+        height: 365px;
+    }
 }
 @media only screen and (min-width: 1000px) {
     .search{
-        min-width: 300px;
-        left : '65%';
+        min-width: 325px;
+        margin-left : '65%';
     }
     .vertikal{
         border: 2px solid #EEEFF2;
@@ -36,7 +43,16 @@
         width: 0px;
         margin: 12%;
     }
+    .imgMap{
+        width: 1060px;
+        height: 540px;
+    }
+    .Img-team-work{
+        width: 411px;
+        height: 365px;
+    }
   }
+
 
 .container-get-started{
     margin-left: 10%;
@@ -85,7 +101,6 @@
     display: flex;
     flex-direction: column;
     line-height: 1px;
-    
     margin-left: 20px;
 }
 /* price */
@@ -170,12 +185,12 @@
     
 }
 .testimoni{
-    width: 340px;
+    width: 300px;
     height: 170px;
     background: #FFFFFF;
     border: 2px solid #6A4029;
     border-radius: 10px;
-    margin-left: 40px;
+
     overflow: hidden;
     position: relative;
     padding: 30px;
@@ -226,14 +241,13 @@
 }
 .container-text-teamwork{
     margin-left: 6%;
-    width: 432px;
+    max-width: 430px;
     margin-bottom: 80px;
     
 }
 .teamwork{
-    margin-left: 6%;
     height: 457px;
-    width: 432px;
+    max-width: 432px;
     display: flex;
     align-items: center;
 
@@ -294,4 +308,7 @@
     height: 100px;
     margin: 30px;
    
+}
+.awesome{
+    background-color: #ffffff;
 }

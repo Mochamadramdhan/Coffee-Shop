@@ -14,26 +14,22 @@ import { styled } from '@mui/material/styles';
 
 
 const pages = ['Home', 'Products', 'Your Cart', 'History'];
-const settings = ['Sign In', 'Sign Out'];
+
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+ 
   const BootstrapButton = styled(Button)({
     boxShadow: 'none',
     textTransform: 'none',
@@ -115,7 +111,6 @@ function ResponsiveAppBar() {
             </Menu>
           </Box>
           <Logo sx={{  mr: 2,
-             
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,

@@ -9,10 +9,8 @@ import './content/style.css'
 export default function Home() {
   return (
     <>
-    <div className='cogit antainer-home'>
- 
+    <div className='container-home'>
       <Headbar/>
-      
       <Content/>
       <Promo/>
       <Navbar></Navbar>

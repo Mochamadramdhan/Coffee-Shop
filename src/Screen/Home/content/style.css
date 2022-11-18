@@ -15,18 +15,20 @@
 }
 @media only screen and ( min-width: 0px){
     .search{
-        min-width: 200px;
+        min-width: 0px;
+        left : '55%';
     }
     .vertikal{
         border: 2px solid #EEEFF2;
         height: 125.57px;
         width: 0px;
-        margin: 8%;
+        margin: 4%;
     }
 }
 @media only screen and (min-width: 1000px) {
     .search{
         min-width: 300px;
+        left : '65%';
     }
     .vertikal{
         border: 2px solid #EEEFF2;

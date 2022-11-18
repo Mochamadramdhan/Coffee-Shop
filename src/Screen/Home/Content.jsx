@@ -1,5 +1,4 @@
 import React from 'react'
-
 import People from '@mui/icons-material/Person';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
@@ -25,8 +24,8 @@ const Search = styled('div')(({ theme }) => ({
     },
     marginTop: 30,
     left : '65%',
-    
-    height:60,
+    marginRight:10,
+    height:50,
     [theme.breakpoints.up('sm')]: {
       marginLeft: theme.spacing(1),
       width: 'auto',

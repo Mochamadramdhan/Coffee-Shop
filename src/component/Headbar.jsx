@@ -36,7 +36,6 @@ function ResponsiveAppBar() {
     fontSize: 16,
     borderRadius: 50,
     padding: '10px 25px',
-    marginLeft: 30,
     color : 'black',
     lineHeight: 1,
     backgroundColor: '#FFBA33',

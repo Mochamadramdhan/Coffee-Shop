@@ -18,13 +18,27 @@
     align-items: center;
     height: 129px;
 }
-.login-headbar{
-    margin-left: 8%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 19px;
-    color: black;
+@media only screen and ( min-width: 0px){
+    .login-headbar{
+        margin-left: 3%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        color: black;
+    }
+    
 }
+@media only screen and (min-width: 1000px) {
+    .login-headbar{
+        margin-left: 8%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        color: black;
+    }
+    
+  }
+
 .container-button-headbar {
     margin-left: 15%;
     display: flex;

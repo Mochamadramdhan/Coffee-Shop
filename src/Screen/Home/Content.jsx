@@ -130,7 +130,6 @@ export default function Content() {
         <h2>90+</h2>
         <p>Staff</p>
         </div>
-        
       </div>
       <div className="vertikal"></div>
       <div className='conten-home-page'>

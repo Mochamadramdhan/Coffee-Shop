@@ -14,8 +14,9 @@
 }
 @media only screen and ( min-width: 0px){
     .search{
-        width: 180px;
+        max-width: 150px;
         margin-left : '65%';
+        max-height: 40px;
     }
     .vertikal{
         border: 2px solid #EEEFF2;
@@ -36,13 +37,14 @@
         flex-direction: column;
         line-height: 1px;
         margin-left: 20px;
-        font-size: 8px;
+        font-size: px;
     }
 }
 @media only screen and (min-width: 1000px) {
     .search{
         min-width: 325px;
         margin-left : '65%';
+        min-height: 50px;
     }
     .vertikal{
         border: 2px solid #EEEFF2;

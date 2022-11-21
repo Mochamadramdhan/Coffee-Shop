@@ -15,6 +15,6 @@ export default function Home() {
       <Promo/>
       <Navbar/>
   </div>
-</>
+  </>
   )
 }

@@ -8,14 +8,11 @@ import './content/style.css'
 
 export default function Home() {
   return (
-    <>
-    <div className='container-home'>
+<div className='container-home'>
       <Headbar/>
       <Content/>
       <Promo/>
       <Navbar/>
-      
-  </div>
-  </>
+</div>
   )
 }

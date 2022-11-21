@@ -124,7 +124,6 @@ function ResponsiveAppBar() {
             href=""
             sx={{
               mr: 2,
-              
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
@@ -134,7 +133,6 @@ function ResponsiveAppBar() {
             }}
           >
           </Typography>
-         
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
@@ -154,10 +152,7 @@ function ResponsiveAppBar() {
                   <BootstrapButton variant="contained" disableRipple>
                           Sign Up
                   </BootstrapButton>
-        </Box>
-
-          
-          
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>

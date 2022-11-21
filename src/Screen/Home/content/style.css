@@ -31,6 +31,13 @@
         width: 458,4px;
         height: 365px;
     }
+    .text-home-page{
+        display: flex;
+        flex-direction: column;
+        line-height: 1px;
+        margin-left: 20px;
+        font-size: 8px;
+    }
 }
 @media only screen and (min-width: 1000px) {
     .search{
@@ -50,6 +57,13 @@
     .Img-team-work{
         width: 411px;
         height: 365px;
+    }
+    .text-home-page{
+        display: flex;
+        flex-direction: column;
+        line-height: 1px;
+        margin-left: 20px;
+        font-size: 16px;
     }
   }
 
@@ -97,12 +111,7 @@
     display: flex;
     flex-direction: row;
 }
-.text-home-page{
-    display: flex;
-    flex-direction: column;
-    line-height: 1px;
-    margin-left: 20px;
-}
+
 /* price */
 .container-price{
     background-color: #ffffff;

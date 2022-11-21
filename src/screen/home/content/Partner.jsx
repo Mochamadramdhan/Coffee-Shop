@@ -12,7 +12,6 @@ export default function Partner() {
 <>
     <div className="container-patner">
           <h2>Our Partner</h2>
-
         <Grid container spacing={2}>
         <Grid item xs={12} md={2.4} lg={2.4}>
         <img  src={Netflix} alt="Img.partner" className='Img-partner-netflix'/>

@@ -48,10 +48,10 @@ export default function Promo() {
         borderRadius: 10,
         position:'relative'
         }}>
-          <div className="promo">
+      <div className="promo">
         <Grid container spacing={2} alignItems="center">
         <Grid item xs={12} md={6} lg={6}>
-        <div className="container-item" >
+          <div className="container-item" >
           <div className="promo-text">
             <h1>Check our promo today!</h1>
             <p>Let's see the deals and pick yours!</p>
@@ -59,14 +59,13 @@ export default function Promo() {
           </div>
         </Grid>
         <Grid item xs={12} md={5} lg={6}>
-        <div className="container-item" >
+      <div className="container-item" >
         <BootstrapButton className='seePromo' variant="contained" disableRipple>
         See Promo
       </BootstrapButton>
       </div>
         </Grid>
       </Grid>
-
       </div>
     </Box>
 </div>

@@ -1,0 +1,314 @@
+
+/* Get started */
+.container-get-started h1{
+    color: white;
+    font-size: 49px;
+
+}
+.container-get-started p{
+    color: white;
+}
+.container-search{
+    display: flex;
+    margin-right: 30px;
+}
+@media only screen and ( min-width: 0px){
+    .search{
+        width: 180px;
+        margin-left : '65%';
+    }
+    .vertikal{
+        border: 2px solid #EEEFF2;
+        height: 125.57px;
+        width: 0px;
+        margin: 4%;
+    }
+    .imgMap{
+        width: 500px;
+        height: 245px;
+    }
+    .Img-team-work{
+        width: 458,4px;
+        height: 365px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .search{
+        min-width: 325px;
+        margin-left : '65%';
+    }
+    .vertikal{
+        border: 2px solid #EEEFF2;
+        height: 125.57px;
+        width: 0px;
+        margin: 12%;
+    }
+    .imgMap{
+        width: 1060px;
+        height: 540px;
+    }
+    .Img-team-work{
+        width: 411px;
+        height: 365px;
+    }
+  }
+
+
+.container-get-started{
+    margin-left: 10%;
+    max-width: 570px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.get-started{
+    margin-top: 10px;
+}
+/* home page */
+.container-home-page{
+    max-width: 1140px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 57px -30px rgba(0, 0, 0, 0.6);
+    margin-bottom: 100px;
+    
+}
+.container-home-page .circle{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    background: #FFBA33;
+    border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.conten-home-page{
+    display: flex;
+    flex-direction: row;
+}
+.text-home-page{
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+    margin-left: 20px;
+}
+/* price */
+.container-price{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-price-text{
+   text-align: center;
+
+    
+}
+.container-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.item{
+    background-color: white;
+    display: flex;
+    width: 330px;
+    height: 760px;
+    margin: 50px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.image-price{
+    border-radius: 100px;
+    width: 128.98px;
+    height: 128.98px;
+    margin: 40px;
+    
+}
+.container-price-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+
+}
+/*  */
+.Img-netflix{
+    background-color: #c6c6c6;
+    margin: 10px;
+    height: 100px;
+}
+.container-patner{
+    text-align: center;
+}
+.container-consumer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+.container-consumer-text{
+    text-align: center;
+    max-width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+.container-consumer-text h1{
+    max-width: 450px;
+ 
+}
+.container-testimoniConsumer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    
+}
+.testimoni{
+    width: 300px;
+    height: 170px;
+    background: #FFFFFF;
+    border: 2px solid #6A4029;
+    border-radius: 10px;
+
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+    font-size: 14px;
+    
+}
+.image-testimoni{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    
+    
+}
+.container-people{
+    display: flex;
+    line-height: 1px;
+    align-items: center;
+    font-size: 14px;
+}
+.testimoni-review{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    margin: 30px;
+    
+}
+.container-promo{
+    max-width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+
+}
+.promo{
+    display: flex;
+    align-items: center;
+    right: 70px;
+    
+}
+.promo-text{
+    width: 410px;
+ 
+}
+.container-text-teamwork{
+    margin-left: 6%;
+    max-width: 430px;
+    margin-bottom: 80px;
+    
+}
+.teamwork{
+    height: 457px;
+    max-width: 432px;
+    display: flex;
+    align-items: center;
+
+}
+.contanier-teamwork{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 20px 30px -30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 80px;
+    align-items: center;
+
+
+    
+    
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 155px;
+}
+
+.list{
+    margin-left: 30%;
+    box-sizing:border-box;
+   position: relative;
+   line-height: 1;
+}
+.container-outstore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.outstore{
+    text-align: center;
+    max-width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-outstore h1{
+    max-width: 385px;
+}
+.Img-partner{
+    color: #DDE0E4;
+    width: 150px;
+    height: 100px;
+    margin: 30px;
+   
+}
+.Img-partner-netflix{
+    color: #DDE0E4;
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+   
+}
+.awesome{
+    background-color: #ffffff;
+}

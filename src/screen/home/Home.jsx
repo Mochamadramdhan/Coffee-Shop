@@ -14,7 +14,6 @@ export default function Home() {
       <Content/>
       <Promo/>
       <Navbar/>
-
   </div>
 </>
   )

@@ -247,7 +247,7 @@
     
 }
 .promo-text{
-    width: 410px;
+    max-width: 410px;
  
 }
 .container-text-teamwork{

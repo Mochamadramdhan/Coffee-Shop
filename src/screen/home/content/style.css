@@ -29,7 +29,7 @@
         height: 150px;
     }
     .Img-team-work{
-        width: 400px;
+        max-width: 400px;
         height: 300px;
     }
     .text-home-page{

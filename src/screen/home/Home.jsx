@@ -1,9 +1,11 @@
 import React from 'react'
+// import Login from '../login/Login'
 import Headbar from '../../component/Headbar'
 import Navbar from '../../component/Navbar';
 import Content from './Content';
 import Promo from './content/Promo';
 import './content/style.css'
+
 
 
 export default function Home() {
@@ -13,6 +15,7 @@ export default function Home() {
       <Content/>
       <Promo/>
       <Navbar/>
+      {/* <Login/>  */}
 </div>
   )
 }

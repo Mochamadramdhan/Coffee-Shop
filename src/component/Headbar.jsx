@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Logo  from '../screen/Logo';
 import { styled } from '@mui/material/styles';
+import { useNavigate } from 'react-router-dom'
 
 
 const pages = ['Home', 'Products', 'Your Cart', 'History'];
@@ -66,6 +67,7 @@ function ResponsiveAppBar() {
       boxShadow: '0 0 0 0.2rem rgba(0,123,255,.5)',
     },
   });
+  const navigate = useNavigate ()
 
   return (
     <AppBar position="static" style={{ background: '#FFFFFF' }}>
@@ -148,7 +150,7 @@ function ResponsiveAppBar() {
                 <div className="login-headbar">
                     <MenuItem >Login</MenuItem>
                 </div>  
-                  <BootstrapButton variant="contained" disableRipple>
+                  <BootstrapButton variant="contained" disableRipple onClick={()=>navigate("Navbar")}>
                           Sign Up
                   </BootstrapButton>
           </Box>
